@@ -62,3 +62,7 @@ Este es un juego simple desarrollado con Python y Pygame, en el que el jugador o
 - ``` XX_COHETE = XX_COHETE + MOVIMIENTO_XX_COHETE, PANTALLA.blit(MARCADOR, (20, 580)), PANTALLA.blit(IMG_COHETE, (XX_COHETE, YY_COHETE))```: Este código actualiza la posición horizontal del cohete (XX_COHETE) sumando la velocidad de movimiento (MOVIMIENTO_XX_COHETE). Esto sugiere que el valor de MOVIMIENTO_XX_COHETE es positivo cuando el cohete se mueve a la derecha y negativo cuando se mueve a la izquierda. Esta línea dibuja el marcador de puntos en la pantalla. Se asume que MARCADOR es una superficie de Pygame que contiene el texto con el puntaje, y se dibuja en la posición (20, 580), lo que coloca el marcador cerca de la parte inferior izquierda de la ventana.
 
 - ```pygame.display.update()```: se da por terminado el juego.
+
+# Diseño
+
+![Diagrama de flujo](diagrama.png "Diagrama de flujo")
